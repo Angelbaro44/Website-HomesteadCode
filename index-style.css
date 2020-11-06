@@ -1,4 +1,116 @@
-*{
-color: blueviolet;
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Oswald');
 
+.topnav {
+ background-color: #333;
+ overflow: hidden;
+ position: fixed;
+ width: 100%;
+ top:0;
+}
+
+.topnav a {
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ font-family: 'Oswald', sans-serif;
+}
+
+.topnav a:hover {
+ background-color: #00FFFF;
+ color: black;
+}
+
+.topnav a.active {
+ background-color: yellow;
+ color: black;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+ background-image: url('images/color banner.jpg');
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 650px;
+}
+.parallax1 {
+z-index: 4;
+}
+.parallax2 {
+ background-image: url('images/color banner.jpg');
+ min-height: 630px;
+}
+.parallax3 {
+ background-image: url('images/color banner.jpg');
+ min-height: 800px;
+}
+.parallax4 {
+ background-image: url('images/color banner.jpg');
+ min-height: 700px;
+}
+.parallax5 {
+ background-image: url('images/color banner.jpg');
+min-height: 300px;
+}
+
+ .text1, .text2, .text3, .text4, .text5{
+ background-color: rgba(0,0,0,0.1);
+ height: 300px;
+ padding-left: 5em;
+ padding-right: 5em;
+ padding-top: 2em;
+ border: 3px solid yellow;
+ }
+.text2 {
+ height: 550px;
+}
+.text3 {
+ height: 1100px;
+}
+.text4 {
+ height: 300px;
+}
+.text5 {
+ height: 1700px;
+}
+
+h {
+ font-family: 'Oswald', sans-serif;
+ font-size: 1.7em;
+}
+p {
+ font-family: 'EB Garamond', serif;
+ font-size: 1.3em;
+
+}
+#aqua {
+ border-bottom: 5px solid #00FFFF;
+ text-decoration: none;
+ }
+#round {
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ float: center;
+ padding-right: 1em;
+ padding-bottom: 1em;
+
+}
+.column {
+ width: 33.33%;
+ padding: 10px;
+ float: left;
+ height: 300px;
+}
+.row:after {
+ content: '\'' ;
+ display: table;
+ clear: both;
+}
+li {
+font-family: 'EB Garamond' serif;
+ font-size: 1.2em;
 }
