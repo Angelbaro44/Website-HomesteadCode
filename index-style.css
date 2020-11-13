@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Oswald');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+      font-family: 'PT Serif', serif;}
 .topnav {
  background-color: #333;
  overflow: hidden;
@@ -58,30 +60,33 @@ min-height: 300px;
 
  .text1, .text2, .text3, .text4, .text5{
  background-color: rgba(0,0,0,0.1);
- height: 300px;
- padding-left: 5em;
- padding-right: 5em;
+ height: fit-content;
+ padding-left: 3em;
+ padding-right: 3em;
  padding-top: 2em;
  border: 3px solid yellow;
  }
 .text2 {
- height: 550px;
+      height: fit-content;
+
 }
 .text3 {
- height: 1100px;
+      height: fit-content;
 }
 .text4 {
- height: 300px;
+      height: fit-content;
+
 }
 .text5 {
+      height: fit-content;
+
 }
 
-h {
- font-family: 'Oswald', sans-serif;
+
+ h{
  font-size: 1.7em;
 }
 p {
- font-family: 'EB Garamond', serif;
  font-size: 1.3em;
 
 }
@@ -102,7 +107,10 @@ p {
  width: 33.33%;
  padding: 10px;
  float: left;
- height: 300px;
+}
+.row{
+      display: flex;
+      flex-direction: row;
 }
 .row:after {
  content: '\'' ;
