@@ -121,3 +121,9 @@ li {
 font-family: 'EB Garamond' serif;
  font-size: 1.2em;
 }
+.teamicon{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 20px;
+}
